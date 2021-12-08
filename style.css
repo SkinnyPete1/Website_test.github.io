@@ -18,18 +18,12 @@ button {
   height: 0px;
 }
 
-.nav_bar {
-  background-image: url(img/background7.png);
+.start {
+  background-image: url(img/background8.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: #ff0000;
-  height: 2000px;
-}
-
-@media screen and (max-width: 1637px) {
-  .nav_bar {
-    background-size: auto;
-  }
+  background-color: #3b3c36;
+  height: 3000px;
 }
 
 .navbar__logo {
@@ -38,10 +32,12 @@ button {
   font-size: 2.5rem;
   cursor: pointer;
   padding: 40px 8%;
+  z-index: 100;
 }
 
 .button_1 {
   padding: 43px 8%;
+  z-index: 100;
 }
 
 button {
@@ -50,14 +46,30 @@ button {
   padding: 10px 20px;
   font-size: 2rem;
   cursor: pointer;
-  background-color: #ff0000;
+  background-color: #3b3c36;
   border: none;
   border-radius: 100px;
 }
 
+.ted_img {
+  width: 22.5%;
+  z-index: 10;
+  position: relative;
+  top: 175px;
+  left: 50px;
+}
+
+.moon_img {
+  width: 20%;
+  z-index: 10;
+  position: relative;
+  top: 145px;
+  left: 50%;
+}
+
 .text {
-  color: #fff;
-  padding: 45% 0%;
+  color: rgb(255, 255, 255);
+  padding: 500px 0%;
   text-align: center;
 }
 
@@ -69,16 +81,62 @@ button {
   font-size: 1rem;
 }
 
-/* main */
-.main {
-  background: #ff0000;
-  padding: 400px 0;
-  max-width: 20000px;
+@media screen and (max-width: 1637px) {
+  .start {
+    background-size: auto;
+  }
 }
 
-/* down */
-.end {
-  background: #bdbdbd;
-  padding: 1000px 0;
-  max-width: 20000px;
+.text_how {
+  padding: 5%;
+}
+
+.how {
+  padding: 3%;
+}
+
+.step1 {
+  padding: 3%;
+}
+
+.step11 {
+  padding: 3%;
+}
+
+.step2 {
+  padding: 3%;
+}
+
+.step21 {
+  padding: 3%;
+}
+
+.step3 {
+  padding: 3%;
+}
+
+.step31 {
+  padding: 3%;
+}
+
+.step4 {
+  padding: 3%;
+}
+
+.step41 {
+  padding: 3%;
+}
+
+.address {
+  padding: 3%;
+}
+
+/* footer */
+.footer {
+  height: 300px;
+}
+
+.footer_text {
+  font-size: 2rem;
+  text-align: center;
 }
