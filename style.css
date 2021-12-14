@@ -23,8 +23,7 @@ button {
   background-repeat: no-repeat;
   background-size: contain;
   background-color: #3b3c36;
-  height: fit-content;
-  padding-bottom: 200px;
+  padding-bottom: fit-content;
 }
 
 .navbar__logo {
@@ -72,22 +71,16 @@ button {
   padding-top: 100px;
 }
 
+.floatimgtext {
+  display: flex;
+}
 .img1 {
-  float: left;
-  padding: 0px 100px;
+  width: 50%;
+  padding: 5%;
 }
 
 .img2 {
   width: 100%;
-}
-
-@media screen and (max-width: 1420px) {
-  /* .img1 {
-    float: none;
-  } */
-  /* .img2 {
-    width: 50%;
-  } */
 }
 
 .text {
@@ -98,7 +91,11 @@ button {
 
 .text_how {
   color: rgb(255, 255, 255);
-  padding: 200px 30px;
+  width: 50%;
+  padding: 5%;
+  text-align: left;
+  overflow-wrap: break-word;
+  align-self: center;
 }
 
 .paragraph1 {
@@ -109,16 +106,13 @@ button {
 .paragraph2 {
   font-size: 1.5rem;
   padding-bottom: 200px;
+  overflow-wrap: break-word;
 }
 
 @media screen and (max-width: 1637px) {
   .start {
     background-size: auto;
   }
-}
-
-.text_how {
-  padding: 0px;
 }
 
 .how {
@@ -174,18 +168,19 @@ button {
 /* white line */
 .white_line_div {
   background-color: #3b3c36;
+  padding-bottom: 40px;
 }
 .white_line {
   background-color: #fff;
-  height: 1px;
+  height: 2px;
   margin: auto 10rem;
   border-radius: 100px;
 }
 
 /* main */
-main {
-  padding-top: 100px;
+.main1 {
   background: #3b3c36;
+  position: relative;
 }
 
 .main_text {
@@ -205,6 +200,7 @@ footer {
   background-color: #3b3c36;
   background-position: center bottom;
   color: #fff;
+  position: relative;
 
   height: 500px;
   margin: 0;
@@ -263,12 +259,12 @@ footer {
 }
 
 .socials a i {
-  font-size: 1.1rem;
+  font-size: 3rem;
   transition: color 0.4 ease;
 }
 
 .socials a:hover {
-  color: rgb(33, 149, 251);
+  color: rgb(183, 183, 183);
 }
 
 .footer_bottom {
