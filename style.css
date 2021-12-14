@@ -169,6 +169,7 @@ button {
 .white_line_div {
   background-color: #3b3c36;
   padding-bottom: 40px;
+  border: none;
 }
 .white_line {
   background-color: #fff;
@@ -181,6 +182,7 @@ button {
 .main1 {
   background: #3b3c36;
   position: relative;
+  border: none;
 }
 
 .main_text {
@@ -216,6 +218,7 @@ footer {
   padding: 30px 20px;
   margin: 0;
   box-sizing: border-box;
+  border: none;
 }
 
 .footer_content {
